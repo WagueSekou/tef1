@@ -1,0 +1,24 @@
+body{
+    padding-top: 55px;
+}
+
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    background: transparent;
+    backdrop-filter: blue(20px);
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1.5px solid rgba(240, 240, 240, 0.6);
+}
+
+header nav{
+    display: flex;
+    gap: 10px;
+    flex: 0.5;
+}
+
